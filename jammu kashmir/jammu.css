@@ -1,0 +1,89 @@
+form{
+    background-color: rgb(0, 157, 255);
+    size: 0ch;
+    background: url(india.jpg)no-repeat;
+}
+label{
+    font-size: 34px;
+    color:#fff;
+}
+.login-form{
+    font-size: 30px; 
+    font-weight: bold; 
+    color:#fff;
+}
+select{
+    font-size: 25px;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+}
+input{
+    background-color: red;
+    font-size: 25px;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+}
+img{
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+}
+.social{
+    background-color: rgb(0, 208, 255);
+}
+
+.check{
+    background-color: rgb(0, 157, 255);   
+}
+.feel,.kill{
+    position: relative;
+    max-width: 600px;
+}
+.kill figcaption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 107.1%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+.feel figcaption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 133%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+.bhao{
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+.row{
+    background-color: rgb(0, 157, 255);  
+}
+.column{
+    float: left;
+    width: 23%;
+    padding: 5px;
+}
+.col{
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
